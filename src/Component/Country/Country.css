@@ -1,0 +1,40 @@
+
+.country{
+    border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+}
+ 
+.image-box {
+ width: 100%;
+  height: 180px;        /* control height */
+  background: #111827;  /* optional dark bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+button{
+  background-color: #111827;
+  padding: 10px 20px;
+  border: 0.5px solid white;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.country-visited{
+  background-color: rgb(7, 255, 61);
+  color: black;
+  
+}
